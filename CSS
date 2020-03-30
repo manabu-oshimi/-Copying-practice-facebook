@@ -1,0 +1,358 @@
+header {
+    background-color: #3B5998;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #ffffff;
+}
+
+.header-wrapper {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-wrapper h1 {
+    display: inline-block;
+    font-size: 35px;
+    line-height: 35px;
+    font-family: initial;
+    
+}
+
+.header-wrapper p {
+    margin-bottom: 2px;
+}
+
+.header-wrapper a {
+    text-decoration: none;
+}
+
+.heder-right {
+    float: left;
+    height: 100%;
+}
+
+.header-login {
+    float: right;
+    font-size: 12px;
+}
+
+.headr-id input {
+    margin-bottom: 27px;
+}
+
+.headr-id {
+    margin-right: 30px;
+}
+
+.header-pass input {
+    margin-bottom: 5px;
+}
+
+.forget {
+    color: #ffffff;
+    display: block;
+    opacity: 0.5;
+    
+}
+
+.login-btn a {
+    color: #ffffff;
+    border: 1px solid #29487D;
+    padding: 1px 4px;
+    font-weight: bold;
+    background-color: #4267B2;
+}
+
+.login-btn {
+    margin-top: 33px;
+    margin-left: 10px;
+   
+}
+
+/* ここからはトップ画面のCSS*/
+.top-wrapper {
+    background-color: #ECEFF5;
+    height: 700px;
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.top-container {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.float {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.access h2 {
+    width: 450px;
+    Color:#0e385f;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.access img {
+    width: 500px;
+}
+
+.register {
+    
+    height: 700px;
+
+}
+
+.register-child {
+    margin-left: 80px;
+    height: 670px;
+    margin-top: 30px;
+    
+}
+
+.register-child h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
+  
+}
+
+.register-child p {
+   
+    margin-top: 0px;
+}
+
+.family {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+
+    margin-right: 15px;
+    
+}
+.family input {
+    line-height: 35px;
+    border-radius: 8px;
+    width: 200px;
+    border: 1px solid #BDC7D8;
+    opacity: 0.7;
+    
+}
+
+
+.sei {
+    display: inline-block;
+   
+    width: 30px;
+    height: 100%;   
+    position: absolute;
+    top: 8px;
+    right: 0;
+    left: 5px;
+    bottom: 0;
+    margin-top: 0px;
+    opacity: 0.5;
+
+}
+
+.mei {
+    display: inline-block;
+    width: 30px;
+    height: 100%;   
+    position: absolute;
+    top: 8px;
+    right: 0;
+    left: 5px;
+    bottom: 0;
+    margin-top: 0px;
+    opacity: 0.5;
+}
+
+.prsonal {
+
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    
+    
+ 
+}
+
+.prsonal input {
+    line-height: 35px;
+    border-radius: 8px;
+    width: 200px;
+    border: 1px solid #BDC7D8;
+    opacity: 0.7;
+
+}
+
+.float-name {
+    
+    display: inline-block;
+    height: 100px;
+    width: 500px;
+}
+
+.name-wrapper {
+    width: 500px;
+
+}    
+
+.tel-wrapper {
+    width: 500px;
+    margin-top: 10px;
+    
+}
+
+.tel-container {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.tel-wrapper input {
+    line-height: 35px;
+    border-radius: 8px;
+    width: 420px;
+    border: 1px solid #BDC7D8;
+    opacity: 0.7;
+}
+
+.tel-wrapper p {
+    display: block;
+    width: 420px;
+    height: 100%;   
+    position: absolute;
+    top: 8px;
+    right: 0;
+    left: 5px;
+    bottom: 0;
+    margin-top: 0px;
+    opacity: 0.5;
+}
+
+.password-wrapper {
+    width: 500px;
+    margin-top: 10px;
+    
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.password-wrapper input {
+    line-height: 35px;
+    border-radius: 8px;
+    width: 420px;
+    border: 1px solid #BDC7D8;
+    opacity: 0.7;
+}
+
+.password-wrapper p {
+    display: block;
+    width: 420px;
+    height: 100%;   
+    position: absolute;
+    top: 8px;
+    right: 0;
+    left: 5px;
+    bottom: 0;
+    margin-top: 0px;
+    opacity: 0.5;
+}
+
+.birthday-container {
+    margin-top: 20px;
+}
+
+
+.birthday-container p {
+    opacity: 0.4;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.birthday-container i {
+    opacity: 0.4;
+}
+
+.sex-wrapper {
+    margin-top: 15px;
+}
+
+.sex-wrapper p {
+    opacity: 0.4;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sex-wrapper i {
+    opacity: 0.4;
+    margin-left: 20px;
+}
+
+.sex-wrapper input {
+    margin-top: 0;
+}
+
+.accunt-tex {
+    font-size: 12px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.btn-wrpper {
+    background-color:#5A9047;
+    color:#ffffff;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #0e385f;
+    margin-top: 20px;
+    opacity: 0.8;
+
+} 
+
+.btn-wrpper h1 {
+    line-height: 30px;
+    text-shadow: #0e385f;
+    width: 200px;
+    margin-top: 0px;
+    height: 50px;
+    display: inline-block;
+}
+
+.btn-wrpper:active {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 2px;
+
+}
+
+.mini-text {
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 30px;
+}
